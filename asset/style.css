@@ -1,0 +1,80 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.BarreNavigation {
+    list-style-type: none;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.contenuNavigation {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.carousel {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.carousel button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#btnPrev {
+    left: 10px;
+}
+
+#btnNext {
+    right: 10px;
+}
+
+.carousel button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.carousel li{
+    list-style: none;
+}
+
+.slide {
+    position: absolute;
+    height: 100%;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    transition: 0.5s ease-in-out;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.slide img{
+    display:block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
