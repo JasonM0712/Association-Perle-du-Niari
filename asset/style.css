@@ -8,21 +8,47 @@
 
 .BarreNavigation {
     list-style-type: none;
-    background-color: #333;
+    background-color: white;
     display: flex;
     justify-content: center;
+    align-items: center;
     z-index: 2;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100%;   
+}
+
+.barNavLogo {
+    height: 60px;
+    width: 90px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.buttonSoutenir {
+    background-color: #FF5E32 ;
+    color: #EFECE4;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    margin-left: 40px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 0px #ea7453;
 }
 
 .contenuNavigation {
     display: block;
-    color: white;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    color: #FF5E32;
     text-align: center;
     padding: 14px 16px;
+    margin-left: 40px;
+    margin-right: 40px;
     text-decoration: none;
+   
 }
 
 .carousel {
@@ -78,3 +104,4 @@
     width: 100%;
     object-fit: cover;
 }
+
