@@ -94,6 +94,18 @@
     transition: 0.5s ease-in-out;
 }
 
+.sectionPresentation {
+    display: block;
+    height: 100vh;
+    width: 100%;
+    background-color: #EFECE4;
+    color: #FF5E32;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 200px;
+}
+
 .slide.active {
     opacity: 1;
 }
@@ -104,4 +116,119 @@
     width: 100%;
     object-fit: cover;
 }
+
+footer {
+    display: block;
+    background-color: #EFECE4;
+    color: #FF5E32;
+    text-align: center;
+    padding: 20px;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    border-top: 3px solid #FF5E32;
+    padding-top: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.footerLiens{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lienFooter{
+    color: #FF5E32;
+    text-decoration: none;
+    margin-left : 50px;
+}
+
+.footerLogo {
+    height: 150px;
+    width: 220px;
+    margin-bottom: 20px;
+}
+
+.contenuSocialMedia {
+    display: flex;
+    flex-direction: row;
+    margin-top : 30px;
+    margin-bottom: 40px;
+}
+
+.socialMediaIcon {
+    display: flex;
+    justify-content: flex-start;
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.FooterContenuLegal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid black;
+    margin-bottom: 50px;
+}
+
+.contenuLegal {
+    display: block;
+    font-family: Poppins, sans-serif;
+    color: #FF5E32;
+    text-align: center;
+    margin-left: 10px;
+    text-decoration: none;
+} 
+
+ .contenuLegal a  {
+    color: black;
+}
+
+.lienLegal {
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+  
+}
+
+.footerContact {
+    display: block;
+    font-family: Poppins, sans-serif;
+    color: #FF5E32;
+    text-align: center;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.contenuFooterContact {
+    display: block;
+    font-family: Poppins, sans-serif;
+    color: black;
+    text-align: center;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.contenuFooterContact h3 {
+    display: flex;
+    justify-content: flex-start;
+    color: #FF5E32;
+    margin-bottom: 10px;
+}
+
+.contenuFooterContact p {
+    display: flex;
+    justify-content: flex-start;
+    color: black;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
 
