@@ -16,3 +16,27 @@ buttonsCarousel.forEach((button) => {
         slideActive.classList.remove('active');
     })
 })
+
+// Ouvrir la modal
+document.querySelectorAll("button[data-modal]").forEach(button => {
+  button.addEventListener("click", function() {
+    const modalId = this.getAttribute("data-modal");
+    document.getElementById(modalId).style.display = "block";
+  });
+});
+
+// Fermer la modal avec le X
+document.querySelectorAll(".close").forEach(closeBtn => {
+  closeBtn.addEventListener("click", function() {
+    this.closest(".modal").style.display = "none";
+  });
+});
+
+// Fermer en cliquant en dehors
+window.addEventListener("click", function(e) {
+  document.querySelectorAll(".modal").forEach(modal => {
+    if (e.target === modal) {
+      modal.style.display = "none";
+    }
+  });
+});
