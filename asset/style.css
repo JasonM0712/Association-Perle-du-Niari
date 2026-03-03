@@ -224,11 +224,197 @@ footer {
     margin-bottom: 10px;
 }
 
+.bannerEducation {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    height: 400px;
+    width: 100%;
+    background-color: #FF5E32;
+}
 
+.TitreBannerEducation{ 
+    padding-top: 100px;
+    width: 500px;
+    margin-left: 90px;
+    color: white;
+}
 
+.bannerImageEducation{
+    height:300px;
+    width: 250px;
+    margin-right: 100px;
+    padding-top: 50px;
+}
 
+.listArticleEducation {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
+.listeEducation{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    background-color: #B6CF4F;
+    padding : 20px;
+    text-align: center;
+    height: 100px;
+    margin : 30px;
+    width: 170px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px 0px #91a53f ;
+}
 
+.ArticleEducation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contenuArticleEducation {
+    margin-left: 20px;
+}
+   
+
+.titreArticleEducation {
+    display: block;
+    font-family: Poppins, sans-serif;
+    color: #FF5E32;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.textArticleEducation {
+    display: block;
+    font-family: Poppins, sans-serif;
+    color: black;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 600px;
+    margin-right: 90px;
+ ;
+} 
+
+.articleImageEducation {
+    height: 400px;
+    width: 400px;
+    margin-left: 90px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px 0px #91a53f ;
+}
+
+.secondArticleEducation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 90px;
+    margin-right: 90px;
+    border-radius: 15px;
+    } 
+
+.contenuEducationDeuxiemeArticle{
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.textArticleEducation{
+    display: block;
+    font-family: Poppins, sans-serif;
+    color: black;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.liEducation{
+    font-family: Poppins, sans-serif;
+    color: black;
+    text-decoration: unset;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style-type: "- ";
+}
+
+.listeArticleEducationDeux {
+    display: flex;
+    justify-content: space-around;
+}
+
+.articleDeuxEducation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF5E32;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    height: 100px;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.savoirPlus {
+    color: #FF5E32;
+    background-color: transparent;
+    border: 2px solid #FF5E32;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.sectionTroisièmeArticleEducation{
+    display: block;
+    text-align: center;
+}
+
+.troisiemeTitreArticleEducation {
+    display: block;
+    font-family: Poppins, sans-serif;
+    color: #FF5E32;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.troisiemeTexteArticleEducation {
+  align-items: center;
+  text-align: center;
+  font-family: poppins, sans-serif;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.DeuxiemeImageEducation {
+    height: 400px;
+    width: 400px;
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px 0px #91a53f ;
+}
+
+.savoirPlus a {
+    font-family: Poppins, sans-serif;
+    color: #FF5E32;
+    text-decoration: none;
+}
 
 
 
