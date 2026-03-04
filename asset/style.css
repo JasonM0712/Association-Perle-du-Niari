@@ -464,6 +464,10 @@ footer {
 }
 
 .articleActionUn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-image: url(../asset/img/articleAction2.png);
     background-size: cover;
     background-position: center;
@@ -474,6 +478,10 @@ footer {
 } 
 
 .articleActionDeux{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-image: url(../asset/img/articleAction2.png);
     background-size: cover;
     background-position: center;
@@ -484,6 +492,10 @@ footer {
 } 
 
 .articleActionTrois{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-image: url(../asset/img/articleAction2.png);
     background-size: cover;
     background-position: center;
@@ -493,6 +505,10 @@ footer {
     box-shadow: 4px 4px 4px 0px #EFE78B ;
 } 
 .articleActionQuatre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-image: url(../asset/img/articleAction2.png);
     background-size: cover;
     background-position: center;
@@ -503,9 +519,14 @@ footer {
 } 
 
 .articleActionCinq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-image: url(../asset/img/articleAction2.png);
     background-size: cover;
     background-position: center;
+    flex-direction: column;
     height: 600px;
     width: 500px;
     border-radius: 15px;
@@ -522,9 +543,11 @@ footer {
 
 
 .articleSousTitreAction{
+    margin-top : auto;
     font-family: Poppins, sans-serif;
     color: white;
     text-align: center;
+    width: 400px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -538,6 +561,8 @@ footer {
     border-radius: 20px;
     font-family: Poppins, sans-serif;
     font-weight: bold;
+    width: 120px;
+    margin-bottom: 30px;
 }
 
 /* Modal  _________________________________________________*/
