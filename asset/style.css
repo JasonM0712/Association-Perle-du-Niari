@@ -52,7 +52,7 @@
 }
 
 .carousel {
-    height: 100vh;
+    height: 650px;
     width: 100%;
     position: relative;
 }
@@ -647,3 +647,181 @@ footer {
     height: 30px;
     width: 30px;
 }
+
+.bannerAccueil{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 50px;
+    height: 500px;
+    width: 100%;
+    background-image: url('../asset/img/Photositeaccueil.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.bannerBlocAccueil{
+    display: block;
+    margin-left: 70px;
+    text-align: left;
+    color: #EFECE4;
+}
+
+.textBannerAccueil{
+    font-family: Poppins, sans-serif;
+    color: #EFECE4;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.sousTitreArticleAccueil{
+    font-family: Poppins, sans-serif;
+    color: #FF5E32;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.blocArticleAcceuil{
+    display: block;
+    padding: 20px;
+    border-radius: 15px;
+    width: 500px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.blocArticleAcceuil p {
+    font-family: Poppins, sans-serif;
+    color: black;
+    font-size: 18px;
+    margin-top: 25px;
+    width: 400px;
+}
+
+.conteneurArticleAccueil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+} 
+
+.imageArticleAccueil{
+    height: 400px;
+    width: 400px;
+    border-radius: 25px;
+    box-shadow: 4px 4px 4px 0px #91a53f ;
+}
+
+.DeuxiemeimageArticleAccueil{
+    margin-left: 100px;
+    margin-right: 70px;
+    height: 400px;
+    width: 400px;
+    border-radius: 25px;
+    box-shadow: 4px 4px 4px 0px #FF5E32 ;
+}
+
+.blocSecondArticleAcceuil{
+    display: block;
+    padding: 20px;
+    border-radius: 15px;
+    width: 500px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.blocSecondArticleAcceuil p {
+    font-family: Poppins, sans-serif;
+    color: black;
+    font-size: 18px;
+    margin-top: 25px;
+    width: 400px;
+} 
+
+.blocSecondArticleAcceuil ul {
+    padding-left: 20px;
+    margin-top: 25px;
+} 
+
+.blocSecondArticleAcceuil li {
+    font-family: Poppins, sans-serif;
+    color: black;
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+
+.sectionBandeauAccueil{
+    display: block;
+    background-color:#FF5E32;
+    color:#EFECE4 ;
+    text-align: center;
+    height: 280px;
+    width: 100%;
+    padding: 20px;
+    font-family: Poppins, sans-serif;
+    border-top: 3px solid #FF5E32;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.containerBandeauAccueil{
+    display: flex;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fiveIconAccueil{
+    height: 40px;
+    width: 40px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.paragrapheBandeauAccueil{
+    font-weight: bold;
+}
+
+.descriptionBandeauAccueil{
+    display: block;
+    font-family: Poppins, sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.BandeauCallToAction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin : 0px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    padding: 20px;
+    font-family: Poppins, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sousTitreBandeauCallToAction{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #FF5E32;
+}
+
+.paragrapheCallTocAction{
+    margin-bottom: 5px;
+}
+
+.formatButtonSavoirPlusAcceuil{
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
