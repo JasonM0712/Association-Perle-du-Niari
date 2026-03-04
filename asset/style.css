@@ -7,6 +7,7 @@
 }
 
 .BarreNavigation {
+    display: flex;
     list-style-type: none;
     background-color: white;
     display: none;
@@ -845,16 +846,15 @@ footer {
 }
 
 .navBarreMobile{
-    display: flex;
+    display: none;
     position: fixed;
-    padding-top: 10px;
     top: 0;
-    height: 50px;
+    height: 60px;
     justify-content: space-between;
     align-items: center;
     background-color: #91a53f;
     width: 100%;
-    z-index: 15;
+    z-index: 1;
 }
 
 .burger{
@@ -870,6 +870,37 @@ footer {
     height: 50px;
     width: 80px;
 }
+
+.navHrefMobile{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    color: #FF5E32;
+    text-decoration: none;
+}
+
+.navButtonMobile {
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding-left: 60px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    background-color: #EFECE4;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    position: fixed;
+    top: 60px;
+}
+
+.navButtonMobile li {
+    color: #FF5E32;
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 24px;
+    }
 
 .droitResponsif{
     display: none;
@@ -903,9 +934,9 @@ footer {
         width: 300px;
     }   
 
-    .blockArticleAcceuil{
+    .blocArticleAcceuil{
         display: block;
-        width: 100%;
+        width: 300px;
         margin-left: 20px;
         margin-right: 20px;
     }
@@ -915,20 +946,39 @@ footer {
     }
 
     .conteneurArticleAccueil{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
     } 
 
     .blocArticleAcceuil p{ 
-        margin-left : 20px;
+        width: 100%;
+    }
+
+    .BandeauCallToAction{
+        display: block;
+        height: auto;
+    }
+
+     .sousTitreBandeauCallToAction{
+        margin-top: 30px;
+    }
+
+     .paragrapheCallTocAction{
         width: 300px;
+    }
+
+     .formatButtonSavoirPlusAcceuil{
+        display: block;
+        margin: 20px auto;
     }
 
     .imageArticleAccueil{
         height: 300px;
         width: 300px;
         margin-bottom: 30px;
-        margin-left: 50px;
-        margin-right: 50px;
     }
 
     .DeuxiemeimageArticleAccueilResponsif{
@@ -1061,12 +1111,17 @@ footer {
 
     .bannerAction{
         display: block;
+        width: 100%;
         height: auto;
-        padding: 50px 20px;
+        padding: 50px ;
     }
 
      .bannerContenuAction{
         display: block;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
     }
 
      .bannerContenuAction h1{
@@ -1079,17 +1134,41 @@ footer {
     }
 
      .articleActionGrid{
-        display: block;
+        display: grid;
+        grid-template-columns: 1fr;
+    } 
+
+    .articleActionCinqResponsif{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 280px;
+        background-image: url(../asset/img/articleAction2.png);
+        background-size: cover;
+        background-position: center;
+        flex-direction: column;
+        height: 400px;
+        border-radius: 15px;
+        box-shadow: 4px 4px 4px 0px #FF5E32 ;
     }
 
      .articleActionUn, .articleActionDeux, .articleActionTrois, .articleActionQuatre, .articleActionCinq{
-        display: block;
-        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 400px;
+        width: 280px;
         margin-bottom: 30px;
     }
 
+    .articleActionCinq{
+        display: none;
+    }
+
      .articleSousTitreAction{
-        margin-top: 50px;
+        width: 100%;
+        padding: 5px;
+     
         font-size: 20px;
     }
 
@@ -1273,6 +1352,20 @@ footer {
         display: block;
         margin: 20px auto;
         margin-bottom: 100px;
+    }
+
+    .modal-content{
+        display: block;
+        width: 90%;
+        height: auto;
+    }
+
+     .modal-content h2{
+        font-size: 25px;
+    }
+
+     .modal-content p{
+        font-size: 18px;
     }
 
 }
