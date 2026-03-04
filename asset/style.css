@@ -47,8 +47,7 @@
     padding: 14px 16px;
     margin-left: 40px;
     margin-right: 40px;
-    text-decoration: none;
-   
+    text-decoration: none; 
 }
 
 .carousel {
@@ -338,6 +337,7 @@ footer {
 
 .contenuEducationDeuxiemeArticle{
     display: block;
+    padding: 20px;
 }
 
 .textArticleEducation{
@@ -840,6 +840,10 @@ footer {
     display: none;
 }
 
+.articleImageEducationResponsif{
+    display: none;
+}
+
 .navBarreMobile{
     display: flex;
     position: fixed;
@@ -1102,6 +1106,173 @@ footer {
 
     .formatLogoCongo{
         display: none;
+    }
+
+    .bannerEducation{
+        display: block;
+        height: auto;
+        width: 100%;
+        padding: 50px 20px;
+    }
+
+     .TitreBannerEducation{
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .bannerImageEducation{
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 30px auto;
+    }
+    
+    .listArticleEducation{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+    }
+    
+    .ArticleEducation, .secondArticleEducation{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0; 
+        margin-bottom: 30px;
+    }
+    
+    .contenuArticleEducation{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .titreArticleEducation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        width: 300px;
+    }
+
+     .textArticleEducation{
+        display: block;
+        
+        font-size: 18px;
+    }
+
+    .ListeEducation{
+        display: block;
+        width: 250px;
+        margin: 30px auto;
+    }
+    
+    .articleImageEducation, .DeuxiemeImageEducation{
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 30px auto;
+    }
+    
+    .sectionTroisièmeArticleEducation{
+        display: block;
+    }
+    
+    .troisiemeTitreArticleEducation{
+        font-size: 25px;
+    }
+    
+    .troisiemeTexteArticleEducation{
+        font-size: 18px;
+    }
+
+    .articleImageEducation{
+        display:none;
+    }
+
+    .articleImageEducationResponsif{
+        display: block;
+        width: 300px;
+        height: auto;
+        box-shadow: 4px 4px 4px 0px #EFE78B ;
+    } 
+
+    .contenuEducationDeuxiemeArticle{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+
+    }
+
+    .secondArticleEducation{
+        display: block;
+    } 
+
+    .textArticleEducation{
+      
+        padding: 30px;
+        width: 299px;
+    }
+
+    .SectionEducation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .DeuxiemeImageEducation{
+        display: block;
+        width: 300px;
+    }
+
+    .sectionTroisièmeArticleEducation{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0%;
+    }
+    .troisiemeTexteArticleEducation{
+        font-size: 18px;
+        width: 300px;
+    }
+
+    .troisiemeTitreArticleEducation{
+        font-size: 25px;
+        width: 300px;
+    }
+
+    .listeArticleEducationTrois{
+        display: block;
+    }
+
+    .articleDeuxEducation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px; 
+        } 
+
+    .savoirPlus{
+        display: block;
+        margin: 20px auto;
+        margin-bottom: 100px;
     }
 
 }
