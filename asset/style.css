@@ -9,7 +9,7 @@
 .BarreNavigation {
     list-style-type: none;
     background-color: white;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     z-index: 2;
@@ -825,3 +825,283 @@ footer {
     margin-bottom: 70px;
 }
 
+
+/* Responsif ____________________________ */
+
+.OpenBurger{
+    display:flex ;
+}
+
+.closeBurger{
+    display: none;
+}
+
+.DeuxiemeimageArticleAccueilResponsif{
+    display: none;
+}
+
+.navBarreMobile{
+    display: flex;
+    position: fixed;
+    padding-top: 10px;
+    top: 0;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #91a53f;
+    width: 100%;
+    z-index: 15;
+}
+
+.burger{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #FF5E32;
+    margin: 5px ;
+    transition: 0.4s;
+}
+
+.navImgMobile{
+    height: 50px;
+    width: 80px;
+}
+
+.droitResponsif{
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media( max-width: 700px){
+
+    .BarreNavigation{
+        display: none;
+    } 
+
+    .bannerAccueil{
+        display: block;
+        height: 400px;
+        width: 100%;
+        background-image: url('../asset/img/Photositeaccueil.png');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .TitreBannerAccueil{
+        padding-top: 50px;
+        font-size: 25px;
+        width: 300px;
+    }
+
+    .textBannerAccueil{
+        font-size: 18px;
+        width: 300px;
+    }   
+
+    .blockArticleAcceuil{
+        display: block;
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .sousTitreArticleAccueil{
+        font-size: 25px;
+    }
+
+    .conteneurArticleAccueil{
+        display: block;
+    } 
+
+    .blocArticleAcceuil p{ 
+        margin-left : 20px;
+        width: 300px;
+    }
+
+    .imageArticleAccueil{
+        height: 300px;
+        width: 300px;
+        margin-bottom: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .DeuxiemeimageArticleAccueilResponsif{
+        display: block;
+        height: 300px;
+        width: 300px;
+        margin-top : 30px;
+        border-radius: 25px;
+        box-shadow: #FF5E32 4px 4px 4px 0px;
+    }
+
+    .DeuxiemeimageArticleAccueil{
+        display: none;
+    }
+
+    .blocSecondArticleAcceuil{
+        display: block;
+        width: 100%;
+
+    }
+
+     .blocSecondArticleAcceuil p{ 
+        margin-left : 20px;
+        width: 300px;
+    }
+
+     .blocSecondArticleAcceuil ul{
+        margin-left : 40px;
+        width: 200px;
+
+    }
+
+     .navBarreMobile{
+        display: flex;
+    } 
+
+    .sectionBandeauAccueil{
+        display: block;
+        height: auto;
+    }
+
+    .containerBandeauAccueil{
+        display: block;
+        width: 100%;
+     
+    }
+
+    footer{
+        display: block;
+        height: 1200px;
+    }
+
+     .footerLiens{
+        display:block; 
+        justify-content: start;
+    }
+
+    .contenuFooterLien{
+        display: block;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    .buttonSoutenir{
+        display: block;
+        width: 150px;
+        margin: 20px auto;
+    }
+
+     .lienFooter{
+        display: block;
+        margin: 10px ;
+    }
+
+     .contenuSocialMedia{
+        display: block;
+        text-align: center;
+    }
+
+     .socialMediaIcon{
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+     .FooterContenuLegal{
+        display: block;
+        text-align: center;
+    }
+
+     .contenuLegal{
+        display: block;
+        text-align: center;
+    }
+
+     .lienLegal{
+        display: block ;
+        margin-top: 30px;
+    }
+
+     .footerContact{
+        display: block;
+        text-align: center;
+    }
+
+     .contenuFooterContact{
+        display: block;
+        text-align: center;
+    }
+
+     .contenuFooterContact h3{
+        display: block;
+    }
+
+     .contenuFooterContact p{
+        display: block;
+    }   
+
+    .Droits{
+        display: none;
+    }
+
+    .droitResponsif{
+        display: block;
+    }
+
+    .boutonSoutenir{
+        display: block;
+        margin: 20px auto;
+    }
+
+    .bannerAction{
+        display: block;
+        height: auto;
+        padding: 50px 20px;
+    }
+
+     .bannerContenuAction{
+        display: block;
+    }
+
+     .bannerContenuAction h1{
+        font-size: 30px;
+    }
+
+     .bannerTextAction{
+        font-size: 18px;
+        width: 100%;
+    }
+
+     .articleActionGrid{
+        display: block;
+    }
+
+     .articleActionUn, .articleActionDeux, .articleActionTrois, .articleActionQuatre, .articleActionCinq{
+        display: block;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+     .articleSousTitreAction{
+        margin-top: 50px;
+        font-size: 20px;
+    }
+
+    .articleCinqFormatAction{
+        display: block;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+     .buttonVoirPlus{
+        display: block;
+        margin: 20px auto;
+    }
+
+    .formatLogoCongo{
+        display: none;
+    }
+
+}

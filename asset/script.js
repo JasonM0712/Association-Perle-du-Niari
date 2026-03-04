@@ -1,5 +1,9 @@
+// 'use strict';
+
+
 const buttonsCarousel = document.querySelectorAll('.btnCarousel');
 const slides = document.querySelectorAll('.slide');
+
 
 buttonsCarousel.forEach((button) => {
     button.addEventListener('click', (index) => { 
@@ -40,3 +44,12 @@ window.addEventListener("click", function(e) {
     }
   });
 });
+
+const burger = document.querySelector(".burger");
+const menuMobile = document.querySelector(".navButtonMobile");
+
+burger.addEventListener("click", () => {
+    menuMobile.classList.toggle("OpenBurger");
+    menuMobile.classList.toggle("closeBurger");
+});
+
