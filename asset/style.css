@@ -681,10 +681,20 @@ footer {
 
 .bannerBlocAccueil {
     display: block;
-    font-family: poppins, sans-serif;
+    font-family: Poppins, sans-serif;
     margin-left: 70px;
     text-align: left;
     color: #EFECE4;
+}
+
+.bannerBlocAccueil h1{
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+}
+
+.TitreBannerAccueil{
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
 }
 
 .textBannerAccueil {
@@ -868,6 +878,8 @@ footer {
     display: none;
 }
 
+
+
 .navBarreMobile {
     display: none;
     position: fixed;
@@ -945,6 +957,7 @@ footer {
 
     .bannerAccueil {
         display: block;
+        font-family: Poppins, sans-serif;
         height: 400px;
         width: 100%;
         background-image: url('../asset/img/Photositeaccueil.png');
@@ -954,6 +967,7 @@ footer {
 
     .TitreBannerAccueil {
         font-family: Poppins, sans-serif;
+        font-weight: bold;
         padding-top: 50px;
         font-size: 25px;
         width: 300px;
@@ -966,6 +980,7 @@ footer {
 
     .blocArticleAcceuil {
         display: block;
+        font-family: Poppins, sans-serif;
         width: 300px;
         margin-left: 20px;
         margin-right: 20px;
