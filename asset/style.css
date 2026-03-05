@@ -953,6 +953,7 @@ footer {
     }
 
     .TitreBannerAccueil {
+        font-family: Poppins, sans-serif;
         padding-top: 50px;
         font-size: 25px;
         width: 300px;
