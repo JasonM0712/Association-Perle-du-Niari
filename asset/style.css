@@ -10,7 +10,6 @@
     display: flex;
     list-style-type: none;
     background-color: white;
-    display: none;
     justify-content: center;
     align-items: center;
     z-index: 2;
@@ -852,7 +851,7 @@ footer {
     height: 60px;
     justify-content: space-between;
     align-items: center;
-    background-color: #91a53f;
+    background-color: #EFECE4 ;
     width: 100%;
     z-index: 1;
 }
@@ -881,10 +880,10 @@ footer {
 }
 
 .navButtonMobile {
-    justify-content: center;
+   text-decoration: none;
     align-items: center;
     margin: 0%;
-    padding-left: 60px;
+    padding-top: 30px;
     font-family: "Poppins", sans-serif;
     font-weight: bold;
     background-color: #EFECE4;
@@ -895,12 +894,18 @@ footer {
     top: 60px;
 }
 
+.navBarreMobile ul{
+    list-style: none;
+}
+
 .navButtonMobile li {
     color: #FF5E32;
+    list-style: none;
     text-decoration: none;
     margin-top: 30px;
     font-size: 24px;
     }
+
 
 .droitResponsif{
     display: none;
@@ -1114,6 +1119,7 @@ footer {
         width: 100%;
         height: auto;
         padding: 50px ;
+        padding-top: 80px;
     }
 
      .bannerContenuAction{
