@@ -411,12 +411,20 @@ footer {
     margin-right: auto;
 } 
 
+.buttonSoutenir:hover {               
+    background-color: #F0491B;
+}
+
+.savoirPlus:hover {
+    box-shadow: 0 0 10px #F0491B;
+}
 
 .savoirPlus a {
     font-family: Poppins, sans-serif;
     color: #FF5E32;
     text-decoration: none;
 }
+
 
 .bannerAction{
     display: flex;
