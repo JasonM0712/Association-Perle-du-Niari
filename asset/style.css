@@ -672,11 +672,11 @@ footer {
     justify-content: start;
     align-items: center;
     padding-top: 50px;
-    height: 500px;
+    height: 600px;
     width: 100%;
     background-image: url('../asset/img/Photositeaccueil.png');
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 .bannerBlocAccueil {
